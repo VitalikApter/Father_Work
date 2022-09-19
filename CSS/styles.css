@@ -1,0 +1,45 @@
+.list{
+    list-style: none;
+}
+link{
+    text-decoration: none;
+}
+
+.header{
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    
+}
+
+.navigation{
+    margin-left: auto;
+}
+
+.navigation-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.logo{
+    width: 390px;
+    height: auto;
+}
+
+.logo_icon{
+    width: 100%;
+    height: 100%;
+}
+
+.navigation_icon{
+    opacity: 50%;
+}
+
+.navigation_icon:hover{
+    opacity: 100%;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
