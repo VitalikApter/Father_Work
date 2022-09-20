@@ -73,4 +73,7 @@ link{
 
 .trustpilot-widget{
     padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to left, #ffffff, #90acaa,  #ffffff ) 47% 0%;
 }
