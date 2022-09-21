@@ -79,7 +79,7 @@ link{
     padding-top: 8px;
     padding-bottom: 8px;
     margin-right: 0;
-    width: 1280px;
+    width: 1300px;
     border-bottom: 1px solid;
     border-image: linear-gradient(to left, #ffffff, #90acaa,  #ffffff ) 47% 0%;
 }
@@ -93,6 +93,7 @@ link{
     align-items: center;
     justify-content: center;
     gap: 80px;
+    padding: 0;
 }
 
 .navigation-item{
