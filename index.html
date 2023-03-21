@@ -9,21 +9,44 @@
     <body>
       <style scoped>
         @media (max-width: 768px) {
-          .image {
+          .image-container {
             width: 100%;
+          }
+          .text {
+            width:100%;
           }
         }
         @media (min-width: 768px) {
           .on-the-fly-behavior {
             display: flex;
           }
+          .image-container {
+            width: 50%;
+          }
+          
+          @media (min-width: 1400px) {
+          .image {
+            margin-left: 300px;
+          }
+          .text {
+            width:50%;
+            padding-top: 40px;
+          }
+          .text-devtext {
+            font-size: 20px;
+            line-height: 25px;
+          }
         }
+        
       </style>
       <div class="on-the-fly-behavior">
-        <img src="soebildtest.jpg"  alt="" class="image" />
-        <div>
+        <div class="image-container">
+          <img src="soebildtest.jpg"  alt="" class="image" />
+        </div>
+        
+        <div class="text">
           <h1>&nbsp;Einladung Hölzerne Hochzeit Rustikal selbst gestalten</h1>
-          <p>
+          <p class="text-devtext">
             Nach 5 Jahren Eheleben, beziehungsweise 10 Jahren, je nach Region,
             feiert man die Hölzerne Hochzeit, oder besser gesagt, man lässt sich
             feiern. Durch selbst gestaltete Einladungskarten sollen Freunde und
@@ -42,3 +65,4 @@
     </body>
   </html>
 </html>
+
