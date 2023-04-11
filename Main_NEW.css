@@ -1,0 +1,21 @@
+.Header_container {
+    width: 100%;
+    height: 40px;
+    background-color: gray;
+}
+
+.Footer_container {
+    width: 100%;
+    height: 40px;
+    background-color: aqua;
+}
+
+.text {
+    font-size: 25px;
+    text-align: center;
+}
+
+.main_container {
+    margin-right: 25%;
+    margin-left: 25%;
+}

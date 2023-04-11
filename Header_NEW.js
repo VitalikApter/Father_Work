@@ -1,5 +1,5 @@
 var headerText = `
-<div class="LeaderBoard_container">
+<div class="Header_container">
 <h2 class="text">LeaderBoard</h2>
 </div>
 `;
