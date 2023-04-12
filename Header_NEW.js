@@ -1,6 +1,6 @@
 var headerText = `
 <div class="Header_container">
-<h2 class="text">LeaderBoard</h2>
+<h2 class="text">Header</h2>
 </div>
 `;
 

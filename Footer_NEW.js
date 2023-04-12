@@ -1,13 +1,13 @@
 var footerText = `
 <div class="Footer_container">
-<h2 class="text">LeaderBoard</h2>
+<h2 class="text">Footer</h2>
 </div>
 `;
 
-function setHeader() {
+function setFooter() {
   var footer =  document.createElement("div");
-  footer.innerHTML = headerText ;
+  footer.innerHTML = footerText ;
   document.body.insertAdjacentElement('beforeend', footer );
 }
 
-setHeader();
+setFooter();
